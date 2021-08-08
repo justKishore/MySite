@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kishore S</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="boy.png" />
+    <link rel="icon" href="Icons/boy.png" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,37 +17,40 @@
   </head>
   <body>
     <div class="top-container">
-      <img
-        class="top-cloud"
-        src="CSS - My Site Images/cloud.png"
-        alt="cloud-img"
-      />
+      <img class="top-ballon" src="Images/ballon.png" alt="ballon-img" />
       <h1>I'm Kishore.</h1>
-      <h2>a dreamer.</h2>
+      <h2 class="h2-subtitle">a dreamer.</h2>
+      <img class="bottom-ballon" src="Images/ballon.png" alt="ballon-img" />
       <img
-        class="bottom-cloud"
-        src="CSS - My Site Images/cloud.png"
-        alt="cloud-img"
+        class="effiel-tower"
+        src="Images/effile-tower-img.png"
+        alt="Effiel-tower-img"
       />
-      <img src="CSS - My Site Images/mountain.png" alt="cloud-img" />
+      <div class="nav-links">
+        <a href="#about-link">About</a>
+        <a href="#interest-link">Interest</a>
+        <a href="#contact-me-link">Contact</a>
+      </div>
     </div>
     <div class="middle-container">
       <div class="profile">
         <img
+          id="about-link"
           src="Images/circle-cropped-kishoreS-use.png"
           alt="Kishore-profilepic"
           width="150"
         />
         <h2>Hello World.</h2>
         <p class="intro">
-          Hi, I'm an Engineering Student from Coimbatore. <br />I ❤️ Football
-          and Coding
+          Hello, I'm a passionate programmer pursuing my Bachelor of Engineering
+          in Computer Science at KPRIET in Coimbatore. I also work as an intern
+          at CES IT in Chennai. I ❤️ Football and Coding
         </p>
       </div>
       <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
+      <div class="interest" id="interest-link">
+        <h2>What I love to do.</h2>
+        <div class="interest-row">
           <img
             class="code-img"
             src="Images/computer-science.png"
@@ -57,10 +60,10 @@
           <p>
             I began learning code during my freshman year of college still
             enjoying and learning it. Python and Java are my favourite
-            Programming languages
+            Programming languages💻
           </p>
         </div>
-        <div class="skill-row">
+        <div class="interest-row">
           <img
             class="football-img"
             src="Images/football-players.png"
@@ -69,12 +72,28 @@
           <h3>Pretty Good in Football</h3>
           <p>
             <!--skills-p-->
-            Not only true lover of football, I'm preety good in playin' aswell
+            I'm happy playing on either side of the wings. Ronaldo is a my
+            favourite player and a great inspiration for me. Manchester United
+            is my love❤️
+          </p>
+        </div>
+        <div class="interest-row">
+          <img
+            class="movies-img"
+            src="Images/movies.png"
+            alt="movie-screen-with-popcorn-and-juice-picture"
+          />
+          <h3>Movie, Music, Shows</h3>
+          <p>
+            I enjoy watching movies and shows as well as listening to music.
+            Stranger Things is a recent show I've watched, and I'm currently
+            watching Demon Slayer. I'd appreciate your movie or show
+            recommendations😊
           </p>
         </div>
       </div>
       <hr />
-      <div class="contact-me">
+      <div class="contact-me" id="contact-me-link">
         <h2>Get In Touch</h2>
         <h3>If you love football as much as I do.</h3>
         <p class="contact-message">
@@ -90,13 +109,37 @@
     </div>
 
     <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/kishoresudhir/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://github.com/justKishore">Github</a>
-      <a class="footer-link" href="https://www.instagram.com/just_kishore_/"
-        >Instagram</a
-      >
+      <div class="bottom-container-logo-link-div">
+        <img
+          class="bottom-container-social-media-logo"
+          src="Icons/linkedin.png"
+          alt="linkedin-logo"
+        />
+        <a class="footer-link" href="https://www.linkedin.com/in/kishoresudhir/"
+          >LinkedIn</a
+        >
+      </div>
+
+      <div class="bottom-container-logo-link-div">
+        <img
+          class="bottom-container-social-media-logo"
+          src="Icons/github-logo.png"
+          alt="linkedin-logo"
+        />
+        <a class="footer-link" href="https://github.com/justKishore">Github</a>
+      </div>
+
+      <div class="bottom-container-logo-link-div">
+        <img
+          class="bottom-container-social-media-logo instagram-logo"
+          src="Icons/instagram.png"
+          alt="linkedin-logo"
+        />
+        <a class="footer-link" href="https://www.instagram.com/just_kishore_/"
+          >Instagram</a
+        >
+      </div>
+
       <p>© 2021 Kishore S.</p>
     </div>
   </body>

@@ -1,4 +1,4 @@
 # MySite
-Feel free to look into MY Site😊
+Check out My Site😊
 
 https://justkishore.github.io/MySite/

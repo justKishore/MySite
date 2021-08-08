@@ -1,4 +1,5 @@
 body {
+  background-color: #f8eded;
   font-family: "Merriweather", serif;
   color: #40514e;
   margin: 0;
@@ -6,7 +7,7 @@ body {
   /* font-size: 200%; */
 }
 h1 {
-  color: #66bfbf;
+  color: #ffa0a0;
   line-height: 2;
   font-family: "La Belle Aurore", cursive;
   font-size: 5.625rem;
@@ -21,6 +22,11 @@ h2 {
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
+}
+
+.h2-subtitle {
+  font-size: 1.75rem;
+  margin-top: 0;
 }
 
 h3 {
@@ -38,7 +44,7 @@ hr {
   border-color: #eaf6f6;
   border-width: 6px; */
 
-  border: dotted #eaf6f6 6px;
+  border: dotted #e6fcfc 6px;
   border-bottom: none;
   width: 4%;
   margin: 80px auto;
@@ -47,9 +53,14 @@ a {
   color: #11999e;
 }
 
+/* ul {
+  list-style: none;
+} */
+
 .top-container {
   background-color: #e4f9f5;
-  padding-top: 100px;
+
+  padding-top: 25px;
   position: relative;
 }
 
@@ -57,16 +68,39 @@ a {
 }
 .bottom-container {
 } */
-.top-cloud {
+.top-ballon {
   position: absolute;
+  width: 100px;
   right: 300px;
   top: 50px;
 }
-.bottom-cloud {
+.bottom-ballon {
   position: absolute;
-
+  width: 100px;
   left: 300px;
   bottom: 300px;
+}
+
+.effiel-tower {
+  height: 450px;
+}
+
+.nav-links {
+  color: #66bfbf;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  top: 15px;
+  right: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  text-align: right;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  color: #ffa0a0;
 }
 
 .middle-container {
@@ -95,7 +129,13 @@ a {
   margin-left: 30px;
 }
 
-.skill-row {
+.movies-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.interest-row {
   width: 50%;
   margin: 100px auto 120px auto;
   text-align: left;
@@ -138,30 +178,50 @@ a {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
+  color: #ffa0a0;
   text-decoration: none;
 }
 
 .bottom-container {
   background-color: #66bfbf;
-
   width: 100%;
   padding: 50px 0 20px;
+}
+
+.bottom-container-logo-link-div {
+  width: auto;
+  display: inline-block;
+  position: relative;
+  margin: 10px 20px;
 }
 
 .footer-link {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  margin: 10px 20px;
+  /* margin: 0 30px 10px 0; */
+
+  margin-left: 30px;
 }
 
 .footer-link:hover {
-  color: #eaf6f6;
+  color: #f8eded;
 }
 
 .bottom-container p {
-  color: #eaf6f6;
+  color: #f8eded;
   margin-top: 40px;
   font-size: 0.75rem;
   /* padding: 20px 0 0; */
+}
+
+.bottom-container-social-media-logo {
+  width: 25px;
+  height: 20px;
+  margin: 0;
+  position: absolute;
+}
+
+.instagram-logo {
+  border-radius: 15px;
 }
